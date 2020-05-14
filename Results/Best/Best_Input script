@@ -1,0 +1,7 @@
+stcon=[-0.147,-0.580,-0.095,-0.393,-0.123,-0.368,-0.193,0,0,0,0,0,0]; % initial/starting configuration
+jointspeeds=[0,0,0,0,0,0,0,0,0]; %9 vector joint speed,5 arms,4 wheel. 
+wslimit=1; %wheel speed limit
+jalimit=50; %joint angle limit
+timestep=0.01; %timestep
+Kp=1.6; %declaring Kp
+Ki=0.4; %declaring Ki
